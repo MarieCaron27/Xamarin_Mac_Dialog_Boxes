@@ -1,0 +1,44 @@
+﻿// WARNING
+//
+// This file has been generated automatically by Rider IDE
+//   to store outlets and actions made in Xcode.
+// If it is removed, they will be lost.
+// Manual changes to this file may not be handled correctly.
+//
+using Foundation;
+using System.CodeDom.Compiler;
+
+namespace boites_dialogue
+{
+	[Register ("ViewController")]
+	partial class ViewController
+	{
+		[Outlet]
+		AppKit.NSButton DialogBtn { get; set; }
+
+		[Outlet]
+		AppKit.NSButton SheetBtn { get; set; }
+
+		[Outlet]
+		AppKit.NSTextField TextEditor { get; set; }
+
+		void ReleaseDesignerOutlets ()
+		{
+			if (DialogBtn != null) {
+				DialogBtn.Dispose ();
+				DialogBtn = null;
+			}
+
+			if (SheetBtn != null) {
+				SheetBtn.Dispose ();
+				SheetBtn = null;
+			}
+
+			if (TextEditor != null) {
+				TextEditor.Dispose ();
+				TextEditor = null;
+			}
+
+		}
+	}
+}

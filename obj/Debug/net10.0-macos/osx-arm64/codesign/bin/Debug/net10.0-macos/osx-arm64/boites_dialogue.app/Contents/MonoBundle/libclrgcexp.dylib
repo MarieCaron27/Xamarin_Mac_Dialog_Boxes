@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/marie/RiderProjects/boites_dialogue/boites_dialogue/bin/Debug/net10.0-macos/osx-arm64/boites_dialogue.app/Contents/MonoBundle/libclrgcexp.dylib
