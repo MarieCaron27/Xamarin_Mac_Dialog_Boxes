@@ -214,6 +214,7 @@
 /Users/marie/RiderProjects/boites_dialogue/boites_dialogue/obj/Debug/net10.0-macos/osx-arm64/boites_dialogue.AssemblyInfoInputs.cache
 /Users/marie/RiderProjects/boites_dialogue/boites_dialogue/obj/Debug/net10.0-macos/osx-arm64/boites_dialogue.AssemblyInfo.cs
 /Users/marie/RiderProjects/boites_dialogue/boites_dialogue/obj/Debug/net10.0-macos/osx-arm64/boites_dialogue.csproj.CoreCompileInputs.cache
+/Users/marie/RiderProjects/boites_dialogue/boites_dialogue/obj/Debug/net10.0-macos/osx-arm64/boites_dialogue.sourcelink.json
 /Users/marie/RiderProjects/boites_dialogue/boites_dialogue/obj/Debug/net10.0-macos/osx-arm64/boites_d.B5C5F849.Up2Date
 /Users/marie/RiderProjects/boites_dialogue/boites_dialogue/obj/Debug/net10.0-macos/osx-arm64/boites_dialogue.dll
 /Users/marie/RiderProjects/boites_dialogue/boites_dialogue/obj/Debug/net10.0-macos/osx-arm64/refint/boites_dialogue.dll

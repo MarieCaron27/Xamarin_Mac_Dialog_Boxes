@@ -8,6 +8,12 @@ public partial class ViewController : NSViewController
         get { return (AppDelegate)NSApplication.SharedApplication.Delegate; }
     }
     
+    public string Text
+    {
+        get => TextEditor.StringValue;
+        set => TextEditor.StringValue = value;
+    }
+    
     protected ViewController(NativeHandle handle) : base(handle)
     {
         // This constructor is required if the view controller is loaded from a xib or a storyboard.

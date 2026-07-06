@@ -43,5 +43,35 @@ namespace boites_dialogue
                 }
             }
         }
+        
+        [Export("openDocument:")]
+        void OpenDialog(NSObject sender)
+        {
+            var dlg = NSOpenPanel.OpenPanel;
+            dlg.CanChooseFiles = true;
+            dlg.CanChooseDirectories = false;
+            dlg.AllowedFileTypes = new string[] { "txt", "html", "md", "css" };
+
+            if (dlg.RunModal() == 1)
+            {
+                var url = dlg.Urls[0];
+
+                if (url != null)
+                {
+                    var path = url.Path;
+
+                    var storyboard = NSStoryboard.FromName("Main", null);
+                    var controller = storyboard.InstantiateControllerWithIdentifier("MainWindow") as NSWindowController;
+
+                    controller.ShowWindow(this);
+
+                    var viewController = controller.Window.ContentViewController as ViewController;
+
+                    viewController.Text = File.ReadAllText(path);
+                    viewController.View.Window.SetTitleWithRepresentedFilename(Path.GetFileName(path));
+                    viewController.View.Window.RepresentedUrl = url;
+                }
+            }
+        }
     }
 }
