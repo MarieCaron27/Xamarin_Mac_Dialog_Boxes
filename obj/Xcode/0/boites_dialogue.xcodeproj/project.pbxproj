@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBBDCE00000000000000000 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9AC4400000000000000000 /* Cocoa.framework */; };
+		1A70E6500000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF819400000000000000000 /* Foundation.framework */; };
+		1DB8E3900000000000000000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80005000000000000000000 /* Assets.xcassets */; };
+		278003100000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23801BE00000000000000000 /* Entitlements.plist */; };
+		3F80FB600000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B88D6800000000000000000 /* Info.plist */; };
+		17CF8AF00000000000000000 /* global.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 164BE2B00000000000000000 /* global.jpeg */; };
+		8AAF85000000000000000000 /* keypad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E02BAE000000000000000000 /* keypad.jpeg */; };
+		3E1891F00000000000000000 /* profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2EDD21900000000000000000 /* profile.jpeg */; };
+		25C62E500000000000000000 /* voip.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F7A1500000000000000000 /* voip.png */; };
+		33B4AC100000000000000000 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 115A0C900000000000000000 /* Main.storyboard */; };
+		1C2A71800000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7DFDE00000000000000000 /* AppDelegate.m */; };
+		296DED400000000000000000 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DD57C00000000000000000 /* AppPreferences.m */; };
+		1BC815D00000000000000000 /* CustomDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A08C4A00000000000000000 /* CustomDialogController.m */; };
+		A4EE9A000000000000000000 /* EditorPrefsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC637000000000000000000 /* EditorPrefsController.m */; };
+		2F7EF4000000000000000000 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AB769700000000000000000 /* MainWindow.m */; };
+		3072B5200000000000000000 /* PreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34085E600000000000000000 /* PreferencesWindowController.m */; };
+		144B51D00000000000000000 /* ReplaceViewSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 36A5E0600000000000000000 /* ReplaceViewSegue.m */; };
+		2BD4E3C00000000000000000 /* SheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C01F000000000000000000 /* SheetViewController.m */; };
+		1E5C11800000000000000000 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 113C9D800000000000000000 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B2189800000000000000000 /* boites_dialogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "boites_dialogue.app"; path = "boites_dialogue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9AC4400000000000000000 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cocoa.framework"; path = "System/Library/Frameworks/Cocoa.framework"; sourceTree = SDKROOT; };
+		2DF819400000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		B80005000000000000000000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Assets.xcassets"; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		23801BE00000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		3B88D6800000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		164BE2B00000000000000000 /* global.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "global.jpeg"; path = "global.jpeg"; sourceTree = "<group>"; };
+		E02BAE000000000000000000 /* keypad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "keypad.jpeg"; path = "keypad.jpeg"; sourceTree = "<group>"; };
+		2EDD21900000000000000000 /* profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "profile.jpeg"; path = "profile.jpeg"; sourceTree = "<group>"; };
+		13F7A1500000000000000000 /* voip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "voip.png"; path = "voip.png"; sourceTree = "<group>"; };
+		115A0C900000000000000000 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Main.storyboard"; path = "Main.storyboard"; sourceTree = "<group>"; };
+		342DD5900000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		3D7DFDE00000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		159C82400000000000000000 /* AppPreferences.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppPreferences.h"; path = "AppPreferences.h"; sourceTree = "<group>"; };
+		34DD57C00000000000000000 /* AppPreferences.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppPreferences.m"; path = "AppPreferences.m"; sourceTree = "<group>"; };
+		28094B000000000000000000 /* CustomDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CustomDialogController.h"; path = "CustomDialogController.h"; sourceTree = "<group>"; };
+		3A08C4A00000000000000000 /* CustomDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CustomDialogController.m"; path = "CustomDialogController.m"; sourceTree = "<group>"; };
+		16853A500000000000000000 /* EditorPrefsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "EditorPrefsController.h"; path = "EditorPrefsController.h"; sourceTree = "<group>"; };
+		1CC637000000000000000000 /* EditorPrefsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "EditorPrefsController.m"; path = "EditorPrefsController.m"; sourceTree = "<group>"; };
+		AAF0D5000000000000000000 /* MainWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MainWindow.h"; path = "MainWindow.h"; sourceTree = "<group>"; };
+		1AB769700000000000000000 /* MainWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MainWindow.m"; path = "MainWindow.m"; sourceTree = "<group>"; };
+		202778300000000000000000 /* PreferencesWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PreferencesWindowController.h"; path = "PreferencesWindowController.h"; sourceTree = "<group>"; };
+		34085E600000000000000000 /* PreferencesWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PreferencesWindowController.m"; path = "PreferencesWindowController.m"; sourceTree = "<group>"; };
+		21633A000000000000000000 /* ReplaceViewSegue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ReplaceViewSegue.h"; path = "ReplaceViewSegue.h"; sourceTree = "<group>"; };
+		36A5E0600000000000000000 /* ReplaceViewSegue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ReplaceViewSegue.m"; path = "ReplaceViewSegue.m"; sourceTree = "<group>"; };
+		2C7D0A500000000000000000 /* SheetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SheetViewController.h"; path = "SheetViewController.h"; sourceTree = "<group>"; };
+		A7C01F000000000000000000 /* SheetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SheetViewController.m"; path = "SheetViewController.m"; sourceTree = "<group>"; };
+		10655D400000000000000000 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ViewController.h"; path = "ViewController.h"; sourceTree = "<group>"; };
+		113C9D800000000000000000 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ViewController.m"; path = "ViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139047400000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBBDCE00000000000000000 /* Cocoa.framework in Frameworks */,
+				1A70E6500000000000000000 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		301281700000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				30A68D700000000000000000 /* boites_dialogue */,
+				35DAF9400000000000000000 /* Frameworks */,
+				24B2C3700000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24B2C3700000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B2189800000000000000000 /* boites_dialogue.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		35DAF9400000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D9AC4400000000000000000 /* Cocoa.framework */,
+				2DF819400000000000000000 /* Foundation.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		30A68D700000000000000000 /* boites_dialogue */ = {
+			isa = PBXGroup;
+			children = (
+				342DD5900000000000000000 /* AppDelegate.h */,
+				3D7DFDE00000000000000000 /* AppDelegate.m */,
+				159C82400000000000000000 /* AppPreferences.h */,
+				34DD57C00000000000000000 /* AppPreferences.m */,
+				B80005000000000000000000 /* Assets.xcassets */,
+				28094B000000000000000000 /* CustomDialogController.h */,
+				3A08C4A00000000000000000 /* CustomDialogController.m */,
+				16853A500000000000000000 /* EditorPrefsController.h */,
+				1CC637000000000000000000 /* EditorPrefsController.m */,
+				23801BE00000000000000000 /* Entitlements.plist */,
+				164BE2B00000000000000000 /* global.jpeg */,
+				3B88D6800000000000000000 /* Info.plist */,
+				E02BAE000000000000000000 /* keypad.jpeg */,
+				115A0C900000000000000000 /* Main.storyboard */,
+				AAF0D5000000000000000000 /* MainWindow.h */,
+				1AB769700000000000000000 /* MainWindow.m */,
+				202778300000000000000000 /* PreferencesWindowController.h */,
+				34085E600000000000000000 /* PreferencesWindowController.m */,
+				2EDD21900000000000000000 /* profile.jpeg */,
+				21633A000000000000000000 /* ReplaceViewSegue.h */,
+				36A5E0600000000000000000 /* ReplaceViewSegue.m */,
+				2C7D0A500000000000000000 /* SheetViewController.h */,
+				A7C01F000000000000000000 /* SheetViewController.m */,
+				10655D400000000000000000 /* ViewController.h */,
+				113C9D800000000000000000 /* ViewController.m */,
+				13F7A1500000000000000000 /* voip.png */,
+			);
+			name = "boites_dialogue";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A48DF1000000000000000000 /* boites_dialogue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C8FD7B00000000000000000 /* Build configuration list for PBXNativeTarget "boites_dialogue" */;
+			buildPhases = (
+				10E956000000000000000000 /* Sources */,
+				139047400000000000000000 /* Frameworks */,
+				98340C000000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "boites_dialogue";
+			productName = "boites_dialogue";
+			productReference = 1B2189800000000000000000 /* boites_dialogue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		159D46C00000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2877D1000000000000000000 /* Build configuration list for PBXProject "boites_dialogue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 301281700000000000000000;
+			productRefGroup = 24B2C3700000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A48DF1000000000000000000 /* boites_dialogue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98340C000000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB8E3900000000000000000 /* Assets.xcassets in Resources */,
+				278003100000000000000000 /* Entitlements.plist in Resources */,
+				3F80FB600000000000000000 /* Info.plist in Resources */,
+				17CF8AF00000000000000000 /* global.jpeg in Resources */,
+				8AAF85000000000000000000 /* keypad.jpeg in Resources */,
+				3E1891F00000000000000000 /* profile.jpeg in Resources */,
+				25C62E500000000000000000 /* voip.png in Resources */,
+				33B4AC100000000000000000 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10E956000000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2A71800000000000000000 /* AppDelegate.m in Sources */,
+				296DED400000000000000000 /* AppPreferences.m in Sources */,
+				1BC815D00000000000000000 /* CustomDialogController.m in Sources */,
+				A4EE9A000000000000000000 /* EditorPrefsController.m in Sources */,
+				2F7EF4000000000000000000 /* MainWindow.m in Sources */,
+				3072B5200000000000000000 /* PreferencesWindowController.m in Sources */,
+				144B51D00000000000000000 /* ReplaceViewSegue.m in Sources */,
+				2BD4E3C00000000000000000 /* SheetViewController.m in Sources */,
+				1E5C11800000000000000000 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16C365A00000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDE932000000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33D32C900000000000000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.companyname.boites_dialogue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		126C91900000000000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.companyname.boites_dialogue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2877D1000000000000000000 /* Build configuration list for PBXProject "boites_dialogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C365A00000000000000000 /* Debug */,
+				CDE932000000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1C8FD7B00000000000000000 /* Build configuration list for PBXNativeTarget "boites_dialogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D32C900000000000000000 /* Debug */,
+				126C91900000000000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 159D46C00000000000000000 /* Project object */;
+}
